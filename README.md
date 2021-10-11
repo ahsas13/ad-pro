@@ -1,4 +1,4 @@
-# ad-pro
+# ad-project
 
 ## Project setup
 ```
