@@ -6,7 +6,7 @@ import router from './router/index'
 import store from './store'
 import fb from 'firebase'
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics"
+import { getAnalytics } from "firebase/analytics";
 
 Vue.use(Router)
 Vue.config.productionTip = false
@@ -17,16 +17,16 @@ new Vue({
   router:router,
   store,
   created(){
-    const firebaseConfig = {
-    apiKey: "AIzaSyBM9eIsWH-690AzrhP7KKxpym8dE0ZtTfo",
-    authDomain: "ad-pro-14816.firebaseapp.com",
-    projectId: "ad-pro-14816",
-    storageBucket: "ad-pro-14816.appspot.com",
-    messagingSenderId: "42083426722",
-    appId: "1:42083426722:web:20324462598e42a1b992fb",
-    measurementId: "G-JPB7L4Z34Y"
-    };
-  // Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBM9eIsWH-690AzrhP7KKxpym8dE0ZtTfo",
+  authDomain: "ad-pro-14816.firebaseapp.com",
+  projectId: "ad-pro-14816",
+  storageBucket: "ad-pro-14816.appspot.com",
+  messagingSenderId: "42083426722",
+  appId: "1:42083426722:web:20324462598e42a1b992fb",
+  measurementId: "G-JPB7L4Z34Y"
+};
+ // Initialize Firebase
   fb.initializeApp(firebaseConfig);
   fb.analytics();
   const app = initializeApp(firebaseConfig);
