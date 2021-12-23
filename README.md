@@ -2,7 +2,7 @@
 ## Кафедра прикладной информатики 
 ### Проект на Vue
 #### Студент группы И-1-20 Нецепляев Александр
-##Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 npm run serve
 ```
